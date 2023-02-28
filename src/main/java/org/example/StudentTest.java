@@ -38,22 +38,22 @@ class StudentName{
 
         for(int k=0;k<count;k++){
 
-            int finalK = k;
-            l.log(Level.INFO,()-> "The student name is"+list.get(finalK).getter1());
-            int finalK1 = k;
-            l.log(Level.INFO,()-> "The Student age is "+list.get(finalK1).getter2());
-            int finalK2 = k;
-            l.log(Level.INFO,()-> "The student gpa is "+list.get(finalK2).getter3());
+            int name = k;
+            l.log(Level.INFO,()-> "The student name is"+list.get(name).getter1());
+            int personage = k;
+            l.log(Level.INFO,()-> "The Student age is "+list.get(personage).getter2());
+            int persongrade = k;
+            l.log(Level.INFO,()-> "The student gpa is "+list.get(persongrade).getter3());
         }
         l.info("Sorted  Array");
         Collections.sort(list,new Student());
         for(int j=0;j<count;j++){
-            int finalJ = j;
-            l.log(Level.INFO,()->"The student name is "+list.get(finalJ).getter1());
-            int finalJ1 = j;
-            l.log(Level.INFO,()->"The Student age is "+list.get(finalJ1).getter2());
-            int finalJ2 = j;
-            l.log(Level.INFO,()->"The studentgpa is "+list.get(finalJ2).getter3());
+            int sortname = j;
+            l.log(Level.INFO,()->"The student name is "+list.get(sortname).getter1());
+            int sortage = j;
+            l.log(Level.INFO,()->"The Student age is "+list.get(sortage).getter2());
+            int sortgrade = j;
+            l.log(Level.INFO,()->"The studentgpa is "+list.get(sortgrade).getter3());
         }
 
     }
