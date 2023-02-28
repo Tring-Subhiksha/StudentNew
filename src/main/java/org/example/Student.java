@@ -3,9 +3,9 @@ import java.util.Comparator;
 import java.util.logging.Logger;
 
 class Student implements Comparator<Student> {
-    String studentname;
-    int studentage;
-    double studentgpa;
+    private String studentname;
+    private int studentage;
+    private double studentgpa;
     static Logger l = Logger.getLogger("com.api.jar");
 
     Student() {
